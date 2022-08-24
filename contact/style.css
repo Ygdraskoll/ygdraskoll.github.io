@@ -1,0 +1,71 @@
+/* GENERAL */
+
+.divider{
+    margin: 50px auto 30px;
+    background-color: rgba(213, 229, 43, 0.9) ;
+    width: 120px;
+    height: 2px;
+    border-radius: 10px;
+}
+
+body{
+    background-color: rgb(43, 73, 226) !important;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: bisque;
+}
+
+
+/* MAIN */
+
+#main{
+    max-width: 900px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.red{
+    color: #dc3545;
+}
+.erreur{
+    font-size: 12px;
+    font-style: oblique;
+}
+
+.button{
+    width: 100%;
+    display: block;
+    margin: 30px auto 0px;
+    padding: 15px 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(213, 229, 43,1);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid 1px rgba(213, 229, 43,1);
+    border-radius: 3px;
+    transition: all 0.2s ease-in 0s;
+}
+.button:hover{
+    background-color: white;
+    color: #004a8b;
+    
+}
+
+.thank-you{
+    font-size: 20px ;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    text-align: center;
+    color: #004a8b ;
+
+}
+
+
